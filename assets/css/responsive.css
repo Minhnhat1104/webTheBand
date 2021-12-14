@@ -1,0 +1,84 @@
+@media (min-width: 64em) {
+}
+
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #contact .contact-content{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .icon-list{
+        font-size: 48px !important;
+    }
+    
+    .icon-item{
+        margin: 0px 8px;
+    }
+}
+
+@media (max-width: 46.1875em) {
+    #header {
+        height: auto;
+    }
+
+    #header .search-button{
+        display: none;
+    }
+
+    #header .header-menu{
+        display: block;
+    }
+
+    #header ul{
+        display: block;
+    }
+    
+    #nav > li {
+        display: block;
+    }
+
+    #nav li:first-child {
+        display: inline-block;
+    }
+
+    #content .about-image {
+        display: block;
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    #place-list .place-item {
+        float: none;
+        width: 100%;
+    }
+
+    #contact .contact-content{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #contact .contact-info{
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-bottom: 16px;
+    }
+
+    #contact .col{
+        width: 100%;
+    }
+
+    .send-btn {
+        width: calc(100% + 16px);
+        margin-right: -8px !important;
+    }
+
+    .s-subnav{
+        display: none !important;
+    }
+
+    .place-buy-button {
+        width: 100%;
+    }
+}
