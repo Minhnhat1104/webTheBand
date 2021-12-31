@@ -18,6 +18,14 @@ html{
     clear: both;
 }
 
+.display-block{
+    display: block !important;
+}
+
+.display-none{
+    display: none !important;
+}
+
 .row{
     margin-left: -16px;
     margin-right: -16px;
@@ -66,10 +74,6 @@ từ trên xuống dưới
     height: 46px;
     background-color: #000;
     z-index: 1;
-}
-
-#header .header-menu{
-    display: none;
 }
 
 #nav {
@@ -131,11 +135,16 @@ từ trên xuống dưới
     font-size: 14px;
 }
 
- #header .header-menu,
+#header .header-menu{
+    display: none;
+}
+
+#header .header-menu,
 .ti-search{
     text-align: center;
     font-size: 16px;
-    padding: 15px;
+    padding: 0px 16px;
+    line-height: 46px !important;
     color: #fff;
     position: absolute;
     top:0 ;
